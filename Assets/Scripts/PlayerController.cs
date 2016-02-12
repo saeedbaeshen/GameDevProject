@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour {
 	public int velocidade;
 	// Use this for initialization
 	void Start () {
-		moveSpeed = 20f;
+		moveSpeed = 15f;
 		velocidade = 30;
 	}
 	
@@ -20,4 +20,12 @@ public class PlayerController : MonoBehaviour {
 		if (Input.GetKey (KeyCode.LeftArrow))
 			transform.Rotate (Vector3.down * velocidade * Time.deltaTime);
 	}
+
+	void onCollisionEnter(Collision col)
+	{
+		if (col.gameObject.name == "Cube") {
+			Destroy (col.gameObject);
+		}	
+	}
+
 }
