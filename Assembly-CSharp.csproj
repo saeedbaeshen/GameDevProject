@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8EEF73C0-D290-C2E0-970B-12F7CAC9F2BC}</ProjectGuid>
+    <ProjectGuid>{31D74AC5-81CA-690F-DCE6-974BC2C7B77E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>

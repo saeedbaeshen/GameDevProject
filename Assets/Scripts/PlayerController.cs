@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour {
 	public int velocidade;
 	// Use this for initialization
 	void Start () {
-		moveSpeed = 15f;
+		moveSpeed = 20f;
 		velocidade = 30;
 	}
 	
